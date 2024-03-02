@@ -10,7 +10,7 @@ While my project did put heavy emphasis on reproducability and sustainability in
 ![image](https://github.com/krozzi/TempURRA-NET/assets/107476445/6bf79eee-312e-416a-a317-59de7f146a1e)
 ![image](https://github.com/krozzi/TempURRA-NET/assets/107476445/c1e1256a-25d2-490e-ac61-b1748f9835a9)
 
-# Some better quality images of Lane.EV.
+## Some better quality images of Lane.EV.
 ![image](https://github.com/krozzi/TempURRA-NET/assets/107476445/7f249038-345a-4ff8-83b5-0246cfc2228f)
 ![image](https://github.com/krozzi/TempURRA-NET/assets/107476445/118ab527-b2a1-4665-8072-c163b3004835)
 ![image](https://github.com/krozzi/TempURRA-NET/assets/107476445/5cbb8ac3-e65a-4745-bdf5-31ff12764d36)
