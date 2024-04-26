@@ -41,8 +41,8 @@ neck = dict(type='FPN',
 
 test_parameters = dict(conf_threshold=0.40, nms_thres=50, nms_topk=max_lanes)
 
-epochs = 70
-batch_size = 32
+epochs = 30
+batch_size = 12
 
 optimizer = dict(type='AdamW', lr=0.8e-3)  # 3e-4 for batchsize 8
 total_iter = (3616 // batch_size + 1) * epochs
@@ -52,16 +52,16 @@ eval_ep = 3
 save_ep = epochs
 
 img_norm = dict(mean=[103.939, 116.779, 123.68], std=[1., 1., 1.])
+
 ori_img_w = 1280
 ori_img_h = 720
-# img_h = 128
-# img_w = 256
-# img_h = 256
-# img_w = 512
-# img_h = 320
-# img_w = 800
-img_h = 720
-img_w = 1280
+
+img_h = 128
+img_w = 256
+
+# img_h = 360
+# img_w = 720
+
 cut_height = 160
 
 train_process = [

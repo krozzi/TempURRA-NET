@@ -147,12 +147,12 @@ def gen_json(t_args: argparse.Namespace) -> None:
     os.makedirs(save_dir, exist_ok=True)
 
     # comment out if test
-    reorder_json(t_args, t_args.save_dir, TRAIN_VAL_SET, past_frames=5, spacing=1, save_name="ord_train_val.json")
-    reorder_json(t_args, t_args.save_dir, TRAIN_SET, past_frames=5, spacing=1, save_name="ord_train.json")
-    reorder_json(t_args, t_args.save_dir, VAL_SET, past_frames=5, spacing=1, save_name="ord_val.json")
+    # reorder_json(t_args, t_args.save_dir, TRAIN_VAL_SET, past_frames=5, spacing=1, save_name="ord_train_val.json")
+    # reorder_json(t_args, t_args.save_dir, TRAIN_SET, past_frames=5, spacing=1, save_name="ord_train.json")
+    # reorder_json(t_args, t_args.save_dir, VAL_SET, past_frames=5, spacing=1, save_name="ord_val.json")
 
     # comment out if train
-    # reorder_json(t_args, t_args.save_dir, TEST_SET_ALT, past_frames=5, spacing=1, save_name="ord_test.json")
+    reorder_json(t_args, t_args.save_dir, TEST_SET_ALT, past_frames=5, spacing=1, save_name="ord_test.json")
 
 
 if __name__ == '__main__':
